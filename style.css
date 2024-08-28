@@ -1,0 +1,77 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+
+body{
+  background-color: #F5F4F0;
+}
+main{
+  border: solid blue;
+  margin: 88px 80px 65px 80px;
+}
+img {
+  width: 100%;
+}
+
+.h1-title {
+  font-size: 36px;
+  line-height: 22px;
+  font-weight: bold; /* a fonte fica em negrito */
+  color: #1B1B1B;
+}
+.h2-title {
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: bold; /* a fonte fica em negrito */
+  color: #1B1B1B;
+}
+.h3-title {
+  font-size: 28px;
+  line-height: 22px;
+  font-weight: bold; /* a fonte fica em negrito */
+  color: #1B1B1B;
+}
+.headline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold; /* a fonte fica em negrito */
+  color: #e1624f;
+  text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+}
+.image-description {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; /* Muda estilo da fonte para itálico */
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  color:#333333;
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color:#333333;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+footer {
+  font-family: "Alice", serif;
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+}
